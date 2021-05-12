@@ -1,7 +1,6 @@
 // Copyright 2021 NNTU-CS
 #include <string>
 #include "tstack.h"
-
 int prior(char ch) {
     switch (ch) {
     case '(':
