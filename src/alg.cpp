@@ -21,8 +21,6 @@ int prior(char ch) {
 }
 
 std::string infx2pstfx(std::string inf) {
-  // добавьте сюда нужный код
-  return std::string("");
   std::string pfx;
     int i = 0;
     char ch = inf[i];
@@ -75,8 +73,6 @@ std::string infx2pstfx(std::string inf) {
 }
 
 int eval(std::string pst) {
-  // добавьте сюда нужный код
-  return 0;
   std::string tstr;
   TStack<int> stack2;
   for (int i = 0; i < pst.length(); i++) {
